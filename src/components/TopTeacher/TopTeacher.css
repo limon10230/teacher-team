@@ -1,0 +1,39 @@
+.teacher-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 10px;
+ 
+    
+    
+}
+.top-teacher-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    margin-left: 100px;
+    padding: 50px;
+    
+    background-color: grey;
+    
+}
+.top-teacher-container :hover{
+    background-color: rgb(29, 35, 48);
+    color: white;
+    border: 3px solid rgb(20, 204, 189);
+}
+
+.cart-container{
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    background-color: rgb(217, 245, 242);
+   
+    
+}
+.top-teacher-container{
+    border-right: 2px solid rgb(58, 58, 52);
+
+}

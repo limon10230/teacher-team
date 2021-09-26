@@ -1,9 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Heeader from './components/Header/Heeader';
+import TopTeacher from './components/TopTeacher/TopTeacher';
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Heeader></Heeader>
+      <TopTeacher></TopTeacher>
 
     </div>
   );
